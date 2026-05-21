@@ -122,7 +122,7 @@ Claude will pick the right tool, make the API call, and present the results in a
 ## Requirements
 
 - [Node.js](https://nodejs.org) v18 or higher
-- A Sensor Tower account with API access — get your token at **sensortower.com → Account → API Settings**
+- A Sensor Tower account with API access — get your token at **sensortower.com → Account → API Settings**: https://app.sensortower.com/users/edit/api-settings
 - Claude desktop app or Claude Code CLI
 
 ---
