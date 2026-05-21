@@ -1,6 +1,6 @@
 # Sensor Tower MCP Server
 
-A [Model Context Protocol](https://modelcontextprotocol.io/) server that connects Claude to the [Sensor Tower API](https://api.sensortower.com), giving you live app intelligence directly in chat.
+A [Model Context Protocol](https://modelcontextprotocol.io/) server that connects Claude to the [Sensor Tower API](https://app.sensortower.com/api/docs/app_analysis), giving you live app intelligence directly in chat.
 
 ---
 
