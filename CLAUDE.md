@@ -12,7 +12,7 @@ Once wired up, Claude Code gains these tools:
 | `st_sales_estimates` | Download & revenue estimates over a date range |
 | `st_category_rankings` | Top app rankings for a category and chart type |
 | `st_app_reviews` | User reviews, filterable by country and date |
-| `st_keyword_search` | Apps ranking for a search term |
+| `st_app_search` | Search apps by name — returns iOS and Android IDs |
 | `st_featured_apps` | Apps featured in the store on a given date |
 | `st_publisher_apps` | All apps by a publisher |
 | `st_usage_active_users` | DAU / MAU estimates |
@@ -62,7 +62,7 @@ npm run build
 }
 ```
 
-**Or Claude Code CLI** — `~/.claude/settings.json` (same block as above).
+**Or Claude Code CLI** — run `claude mcp add sensortower node /absolute/path/to/dist/index.js --env SENSORTOWER_TOKEN=your_token_here`
 
 Run `pwd` inside this folder to get the absolute path.
 
