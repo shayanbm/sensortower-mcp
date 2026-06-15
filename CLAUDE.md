@@ -25,7 +25,7 @@ When the user asks to set up or install the Sensor Tower MCP, follow these steps
 2. Wait for them to paste the token.
 3. Run the setup script with their token:
 ```bash
-SENSORTOWER_TOKEN=<their_token> ./setup.sh
+SENSORTOWER_TOKEN=<their_token> node setup.cjs
 ```
 4. Tell them: "All done! Please restart Claude desktop (Cmd+Q, then reopen) to activate the Sensor Tower tools."
 
