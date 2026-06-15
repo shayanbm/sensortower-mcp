@@ -12,6 +12,19 @@ Open Claude Code and say:
 
 Claude will clone the repo, ask for your Sensor Tower API token (find it at https://app.sensortower.com/users/edit/api-settings), and handle everything automatically. Restart Claude desktop when prompted.
 
+## Querying Sensor Tower data
+
+Once set up, just ask Claude naturally in any conversation — no commands or syntax needed. Examples:
+
+- "Show me all apps by Supercell"
+- "How many downloads did Spotify get on iOS in the US last month?"
+- "What are the top 10 free games on Android in Germany today?"
+- "Show me 1-star reviews for TikTok on iOS this week"
+- "Search for meditation apps"
+- "What's the MAU trend for Candy Crush over the last 6 months?"
+
+Claude picks the right tool automatically and presents the results in a readable format.
+
 ---
 
 ## Available tools
