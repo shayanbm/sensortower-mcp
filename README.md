@@ -4,15 +4,13 @@ A [Model Context Protocol](https://modelcontextprotocol.io/) server that connect
 
 ---
 
-## Quick start
+## Getting started
 
-```bash
-git clone https://github.com/shayanbm/sensortower-mcp
-cd sensortower-mcp
-./setup.sh
-```
+Open Claude Code and say:
 
-The script installs dependencies, asks for your Sensor Tower token, and wires everything into Claude automatically. Then restart Claude and you're good to go.
+> "Get this repo and set it up: https://github.com/shayanbm/sensortower-mcp"
+
+Claude will clone the repo, ask for your Sensor Tower API token (find it at https://app.sensortower.com/users/edit/api-settings), and handle everything automatically. Restart Claude desktop when prompted.
 
 ---
 
@@ -62,14 +60,14 @@ Fetch user reviews for an app, filterable by country and date range.
 
 ---
 
-### `st_keyword_search`
-Search for apps by keyword and see how they rank for that search term in the store.
+### `st_app_search`
+Search for apps by name and get their iOS and Android IDs.
 
-**Parameters:** keyword, OS, country, limit
+**Parameters:** term, limit
 
 **Example:**
-> "Which apps rank highest for 'meditation' on iOS in the US?"
-> "What comes up when you search 'budget tracker' on Android?"
+> "Search for meditation apps"
+> "Find apps called budget tracker"
 
 ---
 
