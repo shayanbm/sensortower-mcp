@@ -21,7 +21,7 @@ Once wired up, Claude Code gains these tools:
 
 When the user asks to set up or install the Sensor Tower MCP, follow these steps:
 
-1. Ask the user: "Please paste your Sensor Tower API token. You can find it at sensortower.com → Account → API Settings."
+1. Ask the user: "Please paste your Sensor Tower API token. You can find it at https://app.sensortower.com/users/edit/api-settings"
 2. Wait for them to paste the token.
 3. Run the setup script with their token:
 ```bash

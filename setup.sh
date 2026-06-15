@@ -28,7 +28,7 @@ echo "OK: Build complete"
 
 # ── Step 3: Sensor Tower token ────────────────────────────────────────────────
 echo "[3/4] Sensor Tower API token"
-echo "Find your token at: sensortower.com -> Account -> API Settings"
+echo "Find your token at: https://app.sensortower.com/users/edit/api-settings"
 echo ""
 
 if [ -t 0 ]; then
