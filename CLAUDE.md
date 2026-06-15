@@ -19,20 +19,15 @@ Once wired up, Claude Code gains these tools:
 
 ## Setup (first time)
 
-Just run the setup script — it handles everything automatically:
+When the user asks to set up or install the Sensor Tower MCP, follow these steps:
 
+1. Ask the user: "Please paste your Sensor Tower API token. You can find it at sensortower.com → Account → API Settings."
+2. Wait for them to paste the token.
+3. Run the setup script with their token:
 ```bash
-cd sensortower-mcp
-./setup.sh
+SENSORTOWER_TOKEN=<their_token> ./setup.sh
 ```
-
-The script will:
-1. Check that Node.js is installed
-2. Install dependencies and build the server
-3. Ask for your Sensor Tower token (find it at **sensortower.com → Account → API Settings**)
-4. Inject the config into Claude automatically
-
-Then restart Claude and you're done.
+4. Tell them: "All done! Please restart Claude desktop (Cmd+Q, then reopen) to activate the Sensor Tower tools."
 
 ---
 
